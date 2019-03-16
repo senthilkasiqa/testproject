@@ -5,9 +5,9 @@ public class User {
     String userName;
     String password;
 
-    public static void main(String args[]){
-        User user=new User();
-        user.User("senthil","password");
+    public static void main(String args[]) {
+        User user = new User();
+        user.User("senthil", "password");
     }
 
     public String getPassword() {
@@ -19,7 +19,7 @@ public class User {
     }
 
     public void User(String userName, String password) {
-        this.userName=userName;
-        this.password=password;
+        this.userName = userName;
+        this.password = password;
     }
 }
